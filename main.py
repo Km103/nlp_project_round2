@@ -12,7 +12,7 @@ with open('Orwell-1949 1984.txt', 'r') as file:
 # cleaning the text
 modified_book=preprocess_text(book)
 
-# generateEntities(modified_book)
+generateEntities(modified_book)
 
 
 # trimming the three paragraphs from the book
